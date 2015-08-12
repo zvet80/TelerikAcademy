@@ -47,12 +47,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21. Letters count", "21. Le
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22. Words count", "22. Words count\22. Words count.csproj", "{4BAA53B7-ECFC-408E-A6DB-DEA6047BABA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23. Series of letters", "23. Series of letters\23. Series of letters.csproj", "{13BFB3B1-5978-4FE7-8423-243620B56EFA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24. Order words", "24. Order words\24. Order words.csproj", "{586154B5-76F0-49E4-8EF6-BFE610BC814A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25. Extract text from HTML", "25. Extract text from HTML\25. Extract text from HTML.csproj", "{46482B78-B14B-44FA-AEBC-88BB79B32CFE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,18 +141,6 @@ Global
 		{4BAA53B7-ECFC-408E-A6DB-DEA6047BABA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BAA53B7-ECFC-408E-A6DB-DEA6047BABA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BAA53B7-ECFC-408E-A6DB-DEA6047BABA3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{13BFB3B1-5978-4FE7-8423-243620B56EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{13BFB3B1-5978-4FE7-8423-243620B56EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{13BFB3B1-5978-4FE7-8423-243620B56EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{13BFB3B1-5978-4FE7-8423-243620B56EFA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{586154B5-76F0-49E4-8EF6-BFE610BC814A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{586154B5-76F0-49E4-8EF6-BFE610BC814A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{586154B5-76F0-49E4-8EF6-BFE610BC814A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{586154B5-76F0-49E4-8EF6-BFE610BC814A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{46482B78-B14B-44FA-AEBC-88BB79B32CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46482B78-B14B-44FA-AEBC-88BB79B32CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46482B78-B14B-44FA-AEBC-88BB79B32CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46482B78-B14B-44FA-AEBC-88BB79B32CFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
