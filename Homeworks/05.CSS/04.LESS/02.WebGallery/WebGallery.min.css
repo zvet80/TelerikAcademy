@@ -1,0 +1,1 @@
+﻿ul{list-style-type:none}ul li{display:inline-block;height:100px;width:100px;overflow:hidden;margin:2px}ul li img{height:100px}ul li img:hover{-webkit-transition:all 1s ease;-moz-transition:all 1s ease;-ms-transition:all 1s ease;-o-transition:all 1s ease;transition:all 1s ease;display:inline-block;position:absolute;float:left;top:250px;left:100px;height:300px}

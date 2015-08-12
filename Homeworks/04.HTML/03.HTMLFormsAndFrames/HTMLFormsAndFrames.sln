@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.RegistrationForm", "01.RegistrationForm\01.RegistrationForm.csproj", "{B2C24105-07BE-430C-9F2C-8FC57670511D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.UniversityGrid", "02.UniversityGrid\02.UniversityGrid.csproj", "{8BBCFDA9-FBF4-4D0F-97DE-B791299BB6D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.NotebookStore", "03.NotebookStore\03.NotebookStore.csproj", "{D6F0F623-C69B-4D68-9A92-F6B3C0C923C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2C24105-07BE-430C-9F2C-8FC57670511D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C24105-07BE-430C-9F2C-8FC57670511D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C24105-07BE-430C-9F2C-8FC57670511D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C24105-07BE-430C-9F2C-8FC57670511D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BBCFDA9-FBF4-4D0F-97DE-B791299BB6D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BBCFDA9-FBF4-4D0F-97DE-B791299BB6D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BBCFDA9-FBF4-4D0F-97DE-B791299BB6D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BBCFDA9-FBF4-4D0F-97DE-B791299BB6D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F0F623-C69B-4D68-9A92-F6B3C0C923C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F0F623-C69B-4D68-9A92-F6B3C0C923C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F0F623-C69B-4D68-9A92-F6B3C0C923C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F0F623-C69B-4D68-9A92-F6B3C0C923C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

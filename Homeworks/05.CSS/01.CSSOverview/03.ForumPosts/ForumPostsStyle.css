@@ -1,0 +1,53 @@
+﻿body {
+    background-color: #A9A9A9;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    a.current {
+        background: lightgray;
+    }
+
+h1 {
+    color: lightgoldenrodyellow;
+}
+
+article header h1 {
+    font-size: 28px;
+}
+
+article footer p {
+    font-size: 15px;
+}
+
+p {
+    font-size: 20px;
+}
+
+body > header {
+    text-align: center;
+    font-size: 30px;
+}
+
+body > footer {
+    text-align: center;
+    font-size: 20px;
+}

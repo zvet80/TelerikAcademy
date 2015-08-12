@@ -1,0 +1,19 @@
+Problem 12. Development Environments
+Perform a research (e.g. in Google or Wikipedia) and provide a short list with popular development environments (IDEs) like Visual Studio.
+Write in a text file called “list-of-IDEs.txt” at least five IDEs along with 2-3 sentences about each of them. Use English.
+
+
+
+1.JDeveloper is a freeware IDE supplied by Oracle Corporation. It offers features for development in Java, XML, SQL and PL/SQL, HTML, JavaScript, BPEL and PHP. JDeveloper covers the full development lifecycle from design through coding, debugging, optimization and profiling to deploying.
+
+2.NetBeans IDE is an open-source integrated development environment. NetBeans IDE supports development of all Java application types, but also with other languages, in particular PHP, C/C++, and HTML5.
+
+3.Eclipse contains a base workspace and an extensible plug-in system for customizing the environment. Written mostly in Java, Eclipse can be used to develop applications. By means of various plug-ins, Eclipse may also be used to develop applications in other programming languages: Ada, ABAP, C, C++, COBOL, Fortran, Haskell, JavaScript, Lasso, Natural, Perl, PHP, Prolog, Python, R, Ruby (including Ruby on Rails framework), Scala, Clojure, Groovy, Scheme, and Erlang.
+
+4.Microsoft Visual Studio is used to develop computer programs for Microsoft Windows, as well as web sites, web applications and web services. Visual Studio includes a code editor supporting IntelliSense as well as code refactoring. The integrated debugger works both as a source-level debugger and a machine-level debugger. Visual Studio supports different programming languages and allows the code editor and debugger to support (to varying degrees) nearly any programming language, provided a language-specific service exists. Built-in languages include C, C++ and C++/CLI, VB.NET, C#  and F#. Support for other languages such as M, Python, and Ruby among others is available via language services installed separately. It also supports XML/XSLT, HTML/XHTML, JavaScript and CSS.
+
+5.Xcode is an integrated development environment (IDE) containing a suite of software development tools developed by Apple for developing software for OS X and iOS. On June 2, 2014 Apple announced version 6 of Xcode. Features include "Playgrounds," live debugging tools, as well as an entirely new programming language called Swift.
+
+
+
+

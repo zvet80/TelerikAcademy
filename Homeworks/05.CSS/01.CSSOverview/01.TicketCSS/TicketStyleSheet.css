@@ -1,0 +1,57 @@
+﻿.title {
+    text-align: left;
+    font-size: x-large;
+}
+
+.redflag {
+    color: red;
+    font-weight: bold;
+}
+
+.orangeflag {
+    color: orange;
+    font-weight: bold;
+}
+
+table {
+    background-color: dimgray;
+    font-family: Calibri;
+    font-size: small;
+}
+
+th {
+    text-align: left;
+    vertical-align: top;
+    font-style: italic;
+    color: white;
+    padding-bottom: 10px;
+    font-weight: 300;
+    width: 130px;
+}
+
+td {
+    padding-bottom: 10px;
+    width: 250px;
+    color: darkgray;
+}
+
+p {
+    margin: 0;
+}
+
+    p.name {
+        color: lightgoldenrodyellow;
+    }
+
+        p.name:before {
+            content: "•";
+            font-size: 30px;
+            color: lightgreen;
+            line-height: 16px;
+            vertical-align: top;
+        }
+
+a {
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+}

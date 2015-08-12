@@ -1,0 +1,51 @@
+﻿table {
+    border-collapse: collapse;
+    font-size: medium;
+    font-family: Calibri;
+    border-bottom: 1px solid lightgrey;
+}
+
+th {
+    background-color: rgb(86, 185, 6);
+    text-align: left;
+    color: white;
+    font-weight: 200;
+    border-bottom: medium lightgrey;
+}
+
+img {
+    max-width: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+td, th {
+    padding: 2px 5px;
+    border-right: 1px solid lightgrey;
+}
+input [type="checkbox"]{
+    border:3px inset gray;
+    background:black;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(236,236,216);
+}
+
+td:first-child {
+    width: 150px;
+}
+
+    td:first-child + td {
+        width: 100px;
+    }
+
+        td:first-child + td + td {
+            width: 120px;
+        }
+
+td:last-child {
+    width: 80px;
+    border-right: none;
+}
+

@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Canvas</title>
+    <style>
+        #the-canvas {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <canvas id='the-canvas'
+            width="800"
+            height="400">
+        This is new
+    </canvas>
+    
+    <script>
+        var canvas = document.getElementById("the-canvas"),
+            ctx = canvas.getContext('2d');
+        
+        
+        //var sx = 50,
+        //        sy = 50,
+        //        ex = 450,
+        //        ey = 50,
+        //        cx = 50,
+        //        cy = 300;
+        //function animation() {
+        //    ctx.clearRect(0, 0, canvas.width, canvas.height);
+        //    ctx.beginPath();
+        //    ctx.moveTo(sx, sy);
+        //    ctx.lineTo(ex, ey);
+        //    ctx.moveTo(sx, sy);
+        //    ctx.quadraticCurveTo(cx, cy,ex, ey);
+        //    cx++;
+        //    ctx.stroke();
+        //    requestAnimationFrame(animation);
+        //}
+        //animation();
+        var recX = 60,
+            recY = 100,
+            recW = 60,
+            recH = 65
+        sc=0.5 ,scK=0.6,
+        scF = 0.9;
+        ///face
+        
+        ctx.fillStyle = '#90cad7';
+        ctx.save();
+        ctx.beginPath();
+        ctx.scale(1, 1);
+        ctx.arc(recX + recW / 2, (recY + 2*recH), recW, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.fill();
+        
+        ctx.fillStyle = '#396693';
+        ctx.strokeStyle = 'black';
+        ctx.lineWidth = 2;
+
+        //eyes
+        ctx.beginPath();
+        ctx.scale(1, 1);
+        ctx.arc(recX + 1 / 5 * recW, (recY + 2 * recH), 5, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.arc(recX+recW, (recY + 2 * recH), 5, 0, 2 * Math.PI);
+        ctx.stroke();
+        //mouth
+        ctx.beginPath();
+        ctx.scale(1, 0.3);
+        ctx.arc(recX + recW/2,1/0.3*(recY + 2.5 * recH), recW/3, 0, 2 * Math.PI);
+        ctx.stroke();
+        //nose
+        ctx.beginPath();
+        ctx.lineTo(recX, recY);
+        ctx.lineTo(recH, recW / 2);
+        ctx.stroke();
+        ctx.restore();
+        ctx.beginPath();
+        ctx.save();
+        //rectangle
+        ctx.fillStyle = '#396693';
+        ctx.strokeStyle = 'black';
+        ctx.fillRect(recX, recY, recW, recH);
+        ctx.strokeRect(recX, recY, recW, recH);
+        //wider arc
+        ctx.beginPath();
+        ctx.scale(1, scK);
+        ctx.arc(recX + recW / 2, 1 / scK * (recY + recH), recW * 3 / 4, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.stroke();
+        //lower arc
+        
+        ctx.beginPath();
+        //ctx.scale(1, sc);
+        ctx.arc(recX + recW / 2, 1 / sc * (recY+recH/3), recW / 2, 0, 2 * Math.PI);
+        ctx.stroke();
+        ctx.fill();
+        //upper arc
+        //ctx.fillStyle = 'purple';
+       ctx.beginPath();
+        ctx.arc(recX + recW / 2, 1 / sc * (recY-recH/3), recW / 2, 0, 2 * Math.PI);
+        ctx.fill();
+        ctx.stroke();
+        
+        
+        
+        //ctx.scale(1, 0.3);
+        //ctx.fillRect(50, 50, 100, 100);
+        //ctx.fillStyle = '#90cad7';
+        ////ctx.arc(150, 250, 75, 0, 2 * Math.PI);
+        //ctx.arc(recX + recW / 2, recY + recH, recW / 2, 0, 2 * Math.PI);
+        //ctx.fill();
+        
+
+    </script>
+</body>
+</html>

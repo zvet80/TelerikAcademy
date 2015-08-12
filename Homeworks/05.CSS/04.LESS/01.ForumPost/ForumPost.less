@@ -1,0 +1,287 @@
+﻿@main-background-color: blueviolet;
+@main-font-color: white;
+@main-font-size: 14px;
+@main-font: Ariel;
+@main-border: 1px solid black;
+
+.gradient(@from-color,@from-pos,@to-color,@to-pos) {
+    background: @from-color;
+    background: -moz-linear-gradient(top, @from-color @from-pos, @to-color @to-pos);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(@from-pos,@from-color), color-stop(@to-pos,@to-color));
+    background: -webkit-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -o-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: -ms-linear-gradient(top, @from-color @from-pos,@to-color @to-pos);
+    background: linear-gradient(to bottom, @from-color @from-pos,@to-color @to-pos);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@from-color', endColorstr='@to-color',GradientType=0 );
+}
+
+.clearfix-mixin {
+    zoom: 1;
+
+    &:after {
+        display: block;
+        content: "";
+        height: 0;
+        clear: both;
+    }
+}
+
+img {
+    max-width: 15em;
+    border: none;
+}
+
+.clearfix, body header div#header-container, body header nav, body header nav ul, body header nav ul li ul.sub-nav-list, body section, body aside {
+    zoom: 1;
+}
+
+.clearfix:after, body header div#header-container:after, body header nav:after, body header nav ul:after, body header nav ul li ul.sub-nav-list:after, body section:after, body aside:after, .clearfix:before, body header div#header-container:before, body header nav:before, body header nav ul:before, body header nav ul li ul.sub-nav-list:before, body section:before, body aside:before {
+    .clearfix-mixin();
+    overflow: hidden;
+}
+
+.clearfix:after, body header div#header-container:after, body header nav:after, body header nav ul:after, body header nav ul li ul.sub-nav-list:after, body section:after, body aside:after {
+    clear: both;
+}
+
+body, header, section, footer, article, h1, h2, h3, h4, h5, h6, input, button, label, p, fieldset, nav, ul, li, a, span, strong, em {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+div, h1, h3, h4, h5, h6, header, footer, body, section, nav, article, aside {
+    display: block;
+}
+
+body {
+    font: @main-font-size normal @main-font;
+    color: @main-font-color;
+    background-color: @main-background-color;
+
+    header {
+        padding: 25px 15px 5px 15px;
+        .gradient(lighten(@main-background-color,25%),0,@main-background-color,100%);
+
+        div#header-container div#logo-container {
+            float: left;
+            position: relative;
+        }
+
+        div#header-container div#reg-form-container {
+            float: right;
+            position: relative;
+            right: 5%;
+            top: 50%;
+
+            div {
+                text-align: right;
+
+                label {
+                    width: 50px;
+                    margin: 5px;
+                }
+
+                input {
+                    width: 130px;
+                    border: 2px solid darken(@main-background-color,20%);
+                    border-radius: 10px;
+                    background-color: lighten(@main-background-color,10%);
+                    padding: 2px 5px;
+                    margin: 5px;
+                }
+            }
+
+            button {
+                margin-left: auto;
+                margin-right: auto;
+                font-weight: bold;
+                color: @main-font-color;
+                border: 2px solid darken(@main-background-color,20%);
+                border-top-color: lighten(@main-background-color,25%);
+                border-left-color: lighten(@main-background-color,25%);
+                background-color: lighten(@main-background-color,10%);
+                border-radius: 7px;
+                padding: 5px 8px;
+
+                &:hover {
+                    background-color: darken(@main-background-color,25%);
+                    border-style: inset;
+                }
+            }
+        }
+
+        nav {
+            display: inline-block;
+            width: 75%;
+            margin: 20px 20px 20px 20px;
+            padding: 12px;
+            border: @main-border;
+            border-radius: 15px;
+
+            ul.nav-list {
+                list-style-type: none;
+            }
+
+            ul li {
+                float: left;
+                margin: 0;
+
+                a {
+                    text-decoration: none;
+                    padding: 0 10px 0 10px;
+                    color: @main-font-color;
+                    font: 1.4em normal @main-font;
+
+                    &.selected {
+                        font-weight: bold;
+                    }
+                }
+
+                &:hover > a {
+                    text-decoration: underline;
+                    color: #a8a8a8;
+
+                    + ul {
+                        display: block;
+                    }
+                }
+
+                ul.sub-nav-list {
+                    position: absolute;
+                    display: none;
+                    background-color: lighten(@main-background-color,25%);
+                    border-radius: 5px;
+                }
+
+                ul li {
+                    float: none;
+                    margin: 0 15px;
+                    padding: 10px 0;
+                    border-bottom: @main-border;
+
+                    &:last-of-type {
+                        border-bottom: none;
+                    }
+
+                    > a {
+                        font-size: 1.2em;
+                        color: @main-font-color;
+                    }
+                }
+            }
+        }
+    }
+
+    section {
+        width: 75%;
+        float: left;
+
+        article {
+            margin: 20px;
+            padding: 20px;
+            border: @main-border;
+            border-radius: 15px;
+
+            header {
+                background: none;
+                padding: 5px;
+
+                h1 {
+                    font-size: 1.4em;
+                    padding: 0;
+                }
+            }
+
+            footer {
+                padding: 5px;
+
+                p {
+                    font-size: 16px;
+                    text-align: right;
+                    font-weight: normal;
+
+                    time {
+                        font-family: Consolas, 'Lucida Console', 'DejaVu Sans Mono', monospace;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: lighten(@main-background-color,25%);
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    aside {
+        float: left;
+        width: 20%;
+        margin: 20px;
+
+        > ul {
+            list-style-type: none;
+
+            > li {
+                margin: 15px 0;
+                padding: 15px;
+                border: @main-border;
+                border-radius: 5px;
+
+                h2 {
+                    font-size: 1.1em;
+                    font-weight: bold;
+                }
+
+                p {
+                    margin: 10px 5px 10px 5px;
+                    font-size: @main-font-size;
+
+                    a {
+                        color: #aaaaaa;
+                        text-decoration: none;
+                    }
+
+                    strong {
+                        color: #cccccc;
+                        font-weight: bold;
+                        font-style: normal;
+                    }
+
+                    em {
+                        color: #cccccc;
+                        font-weight: normal;
+                        font-style: italic;
+                    }
+                }
+
+                ul {
+                    list-style-type: none;
+                    margin: 10px 0 10px 0;
+
+                    li {
+                        margin: 5px 10px 0 0;
+                        background: url(img/li-dot.png) no-repeat;
+                        background-position: 0 50%;
+                        padding-left: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        clear: both;
+        padding: 15px 0 25px 0;
+
+        p {
+            font-size: 1.2em;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+}

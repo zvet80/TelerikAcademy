@@ -1,0 +1,47 @@
+﻿body {
+    border:1px solid black;
+    padding:5px;
+    width:600px;
+}
+nav{
+    border-bottom:1px solid black;
+    text-align:center;    
+    font-weight:900;
+    font-size:20px;
+}
+a{
+color:#45c4f4;
+font-family:Calibri;
+}
+fieldset{
+    width:180px;
+    padding:1px;
+    display:inline-block;
+}
+legend{
+    text-align:center;
+}
+img{
+    float:left;
+    vertical-align:top;
+    padding-top:0;
+}
+p{
+    margin-bottom:10px;
+    padding-left:20px;
+}
+#store{
+    width:390px;
+    border:1px solid black;
+    margin:10px;
+    padding:5px;
+}
+section,aside{
+    display:inline-block;
+    vertical-align:middle;
+}
+aside div{
+    font-size:1em;
+    margin:10px 2px;
+    
+}
