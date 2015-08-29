@@ -1,0 +1,23 @@
+﻿<#@ template debug="false" hostspecific="false" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+using System;
+
+public class MyClass
+{
+<# for(int i=1; i<= 3; i++){#> 
+	public int Variable<#=i#> {get; set;}
+<#}#>
+<# for(int i=1; i<= 3; i++){#> 
+	public void Method<#=i#>()
+	{
+		throw new NotImplementedException();
+	}
+<#}#>
+
+
+
+}
