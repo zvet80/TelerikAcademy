@@ -57,6 +57,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="node_modules\underscore\underscore-min.js" />
+    <Content Include="node_modules\underscore\underscore.js" />
+    <Content Include="package.json" />
+    <Content Include="node_modules\underscore\LICENSE" />
+    <Content Include="node_modules\underscore\package.json" />
+    <Content Include="node_modules\underscore\README.md" />
+    <Content Include="node_modules\underscore\underscore-min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

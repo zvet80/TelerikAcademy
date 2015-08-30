@@ -11,7 +11,6 @@ Create a function that:
 */
 
 function solve() {
-
     return function (books) {
         var sorted = _.chain(books)
             .countBy(function (book) {
@@ -48,5 +47,12 @@ function solve() {
         // });
     };
 }
-
+var books = [{
+    title: 'Spam is everywhere',
+    author: {
+        firstName: 'Spamim',
+        lastName: 'Mnogo'
+    }
+}];
+solve()(books);
 module.exports = solve;
