@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<people>
+  <person>
+    <name>Pesho</name>
+    <address>Sofia</address>
+    <phone>99999999</phone>
+  </person>
+  <person>
+    <name>Gosho</name>
+    <address>Burgas</address>
+    <phone>88888888</phone>
+  </person>
+</people>

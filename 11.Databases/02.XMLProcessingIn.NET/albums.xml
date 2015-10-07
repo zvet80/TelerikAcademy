@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<albums>
+  <album>
+    <name>All The Right Reasons</name>
+    <author>Nickelback</author>
+  </album>
+  <album>
+    <name>The Long Road</name>
+    <author>Nickelback</author>
+  </album>
+  <album>
+    <name>Fallen</name>
+    <author>Evanescence</author>
+  </album>
+  <album>
+    <name>Curtis</name>
+    <author>50 Cent</author>
+  </album>
+</albums>

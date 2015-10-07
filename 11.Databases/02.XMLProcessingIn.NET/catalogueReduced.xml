@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xslt" href="catalogStyle" ?>
+<catalogue>
+  <album>
+    <name>All The Right Reasons</name>
+    <artist>Nickelback</artist>
+    <year>2015</year>
+    <producer>Mountainview Studios</producer>
+    <price>10</price>
+    <songs>
+      <song>
+        <title>Far Away</title>
+        <duration>3.5</duration>
+      </song>
+      <song>
+        <title>Rockstar</title>
+        <duration>4.5</duration>
+      </song>
+      <song>
+        <title>Photograph</title>
+        <duration>4.0</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Curtis</name>
+    <artist>50 Cent</artist>
+    <year>2007</year>
+    <producer>Timbaland &amp; Danja</producer>
+    <price>15</price>
+    <songs>
+      <song>
+        <title>Ayo Technology</title>
+        <duration>4.1</duration>
+      </song>
+      <song>
+        <title>I'll Still Kill</title>
+        <duration>3.2</duration>
+      </song>
+      <song>
+        <title>I Get Money</title>
+        <duration>3.8</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>
