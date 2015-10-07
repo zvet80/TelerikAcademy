@@ -13,12 +13,15 @@
 - Adding, changing, deleting, searching and retrieving of data stored in the tables
 - Support for the SQL language
 - Transaction management (optional)
+
 #### 3. Define what is "table" in database terms - 
 In relational databases and flat file databases, a table is a set of data elements (values) using a model of vertical columns (identifiable by name) and horizontal rows, the cell being the unit where a row and column intersect. A table has a specified number of columns, but can have any number of rows.
+
 #### 4. Explain the difference between a primary and a foreign key.
 ***Primary key*** - A table typically has a column or combination of columns that contain values that uniquely identify each row in the table. 
 
 ***Foreign key*** - a column or group of columns in a relational database table that provides a link between data in two tables. It acts as a cross-reference between tables because it references the primary key of another table, thereby establishing a link between them.
+
 #### 5. Explain the different kinds of relationships between tables in relational databases.
 - ***One-to-many relationships*** - The primary key table contains only one record that relates to none, one, or many records in the related table. This relationship is similar to the one between you and a parent. You have only one mother, but your mother may have several children.
 - ***Many-to-many relationships*** - Each record in both tables can relate to any number of records (or no records) in the other table. For instance, if you have several siblings, so do your siblings (have many siblings). Many-to-many relationships require a third table, known as an associate or linking table, because relational systems can't directly accommodate the relationship.
