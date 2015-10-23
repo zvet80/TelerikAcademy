@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CreateDbContext", "01.CreateDbContext\01.CreateDbContext.csproj", "{58822D9E-0E28-40E5-93B0-938174013E50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.FindCustomers", "03.FindCustomers\03.FindCustomers.csproj", "{2586D2D0-89BF-4CF4-81E4-6C80C1C12BFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.CustomersFunctionalities", "02.CustomersFunctionalities\02.CustomersFunctionalities.csproj", "{6FE6F257-EBB7-4EF1-AE2E-37142F2ADDCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.FindCustomersSql", "04.FindCustomersSql\04.FindCustomersSql.csproj", "{336EA621-B3C6-411E-9F79-F1FEFA44F654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.FindSales", "05.FindSales\05.FindSales.csproj", "{A6998D9C-4F72-45CF-9EF3-B65715923095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.CreateNorthwindTwin", "06.CreateNorthwindTwin\06.CreateNorthwindTwin.csproj", "{081A8C4E-CD13-4E62-A770-A86BD81F910A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58822D9E-0E28-40E5-93B0-938174013E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58822D9E-0E28-40E5-93B0-938174013E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58822D9E-0E28-40E5-93B0-938174013E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58822D9E-0E28-40E5-93B0-938174013E50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2586D2D0-89BF-4CF4-81E4-6C80C1C12BFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2586D2D0-89BF-4CF4-81E4-6C80C1C12BFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2586D2D0-89BF-4CF4-81E4-6C80C1C12BFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2586D2D0-89BF-4CF4-81E4-6C80C1C12BFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FE6F257-EBB7-4EF1-AE2E-37142F2ADDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FE6F257-EBB7-4EF1-AE2E-37142F2ADDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FE6F257-EBB7-4EF1-AE2E-37142F2ADDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FE6F257-EBB7-4EF1-AE2E-37142F2ADDCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{336EA621-B3C6-411E-9F79-F1FEFA44F654}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{336EA621-B3C6-411E-9F79-F1FEFA44F654}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{336EA621-B3C6-411E-9F79-F1FEFA44F654}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{336EA621-B3C6-411E-9F79-F1FEFA44F654}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6998D9C-4F72-45CF-9EF3-B65715923095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6998D9C-4F72-45CF-9EF3-B65715923095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6998D9C-4F72-45CF-9EF3-B65715923095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6998D9C-4F72-45CF-9EF3-B65715923095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{081A8C4E-CD13-4E62-A770-A86BD81F910A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{081A8C4E-CD13-4E62-A770-A86BD81F910A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{081A8C4E-CD13-4E62-A770-A86BD81F910A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{081A8C4E-CD13-4E62-A770-A86BD81F910A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
