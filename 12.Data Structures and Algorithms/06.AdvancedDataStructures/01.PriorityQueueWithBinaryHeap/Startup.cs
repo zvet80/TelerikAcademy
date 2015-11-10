@@ -1,5 +1,7 @@
 ﻿namespace _01.PriorityQueueWithBinaryHeap
 {
+    //1.Implement a class PriorityQueue<T> based on the data structure "binary heap".
+
     using System;
 
     public class Startup
