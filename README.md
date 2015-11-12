@@ -1,6 +1,6 @@
 ##### Repository for homework at Telerik Academy 2015/2016#####
 
-<p align="center"><a href="http://telerik.com/"><img src="http://media-cache-ak0.pinimg.com/736x/13/2c/5f/132c5f8119bf4138c09dde621c8f1dd6.jpg" width="200"/></a></p>
+<p align="center"><a href="http://telerikacademy.com/"><img src="http://media-cache-ak0.pinimg.com/736x/13/2c/5f/132c5f8119bf4138c09dde621c8f1dd6.jpg" width="200"/></a></p>
 
 | Programming                                                                 | Web Development                                     | Software Technologies
 | --------------------------------------------------------------------------- | --------------------------------------------------- | -------------------------------------------------------------- |
