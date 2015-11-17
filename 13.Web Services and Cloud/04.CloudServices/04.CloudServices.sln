@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Dropbox", "03.Dropbox\03.Dropbox.csproj", "{F0A6F856-AFC3-4F91-B176-5FC59EA8D101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.IronMQReceiver", "01.IronMQReceiver\01.IronMQReceiver.csproj", "{84195DEB-EA71-4CC7-B371-E0F14CE4AB35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.IronMQSender", "01.IronMQSender\01.IronMQSender.csproj", "{E115FD99-43E9-4666-9197-934415ED4BCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.PubNub", "02.PubNub\02.PubNub.csproj", "{C4C89604-0BC9-48E8-A97F-1DA1763D46B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0A6F856-AFC3-4F91-B176-5FC59EA8D101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0A6F856-AFC3-4F91-B176-5FC59EA8D101}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0A6F856-AFC3-4F91-B176-5FC59EA8D101}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0A6F856-AFC3-4F91-B176-5FC59EA8D101}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84195DEB-EA71-4CC7-B371-E0F14CE4AB35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84195DEB-EA71-4CC7-B371-E0F14CE4AB35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84195DEB-EA71-4CC7-B371-E0F14CE4AB35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84195DEB-EA71-4CC7-B371-E0F14CE4AB35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E115FD99-43E9-4666-9197-934415ED4BCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E115FD99-43E9-4666-9197-934415ED4BCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E115FD99-43E9-4666-9197-934415ED4BCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E115FD99-43E9-4666-9197-934415ED4BCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4C89604-0BC9-48E8-A97F-1DA1763D46B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4C89604-0BC9-48E8-A97F-1DA1763D46B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4C89604-0BC9-48E8-A97F-1DA1763D46B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4C89604-0BC9-48E8-A97F-1DA1763D46B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

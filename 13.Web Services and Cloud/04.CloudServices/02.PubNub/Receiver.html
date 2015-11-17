@@ -1,0 +1,30 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pubnub chat</title>
+</head>
+
+<body>
+	<div 
+        pub-key="pub-c-d4910936-fee3-4584-8642-dcbc87c29564" 
+        sub-key="sub-c-47cf76c2-8d59-11e5-a2e7-0619f8945a4f" 
+        ssl="off" origin="pubsub.pubnub.com" id="pubnub"></div>
+    <script src=http://cdn.pubnub.com/pubnub-3.5.3.min.js></script>
+    <h1>Listening for messages from Pubnub...</h1>
+    <textarea id="messagesArea" style="width:300px; height:300px"></textarea>
+    <script>
+        (function() {
+            document.write("")
+            PUBNUB.subscribe({
+                channel: "chat",
+                callback: function (message) { 
+                    // Received a message --> print it in the page
+                    document.getElementById('messagesArea').innerHTML += message + '\n';
+                }
+            });
+        })();
+    </script>
+</body>
+
+</html>
